@@ -86,7 +86,15 @@ IT-отдел и команда разработчиков программно�
     <element xsi:type="archimate:BusinessObject" name=" (copy) (copy) (copy) (copy)" id="id-344840592f384fedad84340ec41a3b7c"/>
     <element xsi:type="archimate:BusinessObject" name=" (copy) (copy)" id="id-3e9506e200764d7fbf46875c0f6306cd"/>
   </folder>
-  <folder name="Application" id="id-2b6c6812e6bc4b77a2a78594a0b1eb1f" type="application"/>
+  <folder name="Application" id="id-2b6c6812e6bc4b77a2a78594a0b1eb1f" type="application">
+    <element xsi:type="archimate:DataObject" name="Data Object" id="id-489ead1f13ea4f42b07ddb2282eeaa57"/>
+    <element xsi:type="archimate:DataObject" name="Data Object (copy)" id="id-06850dbcdf6d467a8717355344fa1cae"/>
+    <element xsi:type="archimate:DataObject" name="Data Object (copy) (copy)" id="id-783f700daa36488aa59a28b64e759002"/>
+    <element xsi:type="archimate:DataObject" name="Data Object (copy)" id="id-4dd2b4aefaaf44b9b1ac7ef98412a8fe"/>
+    <element xsi:type="archimate:DataObject" name="Data Object (copy) (copy)" id="id-4af7008e775549338e31dda6ce629908"/>
+    <element xsi:type="archimate:DataObject" name="Data Object (copy) (copy) (copy)" id="id-0a929446cec2473dae6a274ef1be26b0"/>
+    <element xsi:type="archimate:DataObject" name="Data Object (copy) (copy) (copy)" id="id-72aa432d4a424c9fbaeffe50e3905e41"/>
+  </folder>
   <folder name="Technology &amp; Physical" id="id-492727bee58f47788c4e49e3096bd51b" type="technology"/>
   <folder name="Motivation" id="id-37222f1166a043b190f5b075d079ccb0" type="motivation">
     <element xsi:type="archimate:Outcome" name="Improved Customer Satisfaction" id="id-bd5f63fb8064425eaf609859538897d6"/>
@@ -299,6 +307,15 @@ IT-отдел и команда разработчиков программно�
     <element xsi:type="archimate:AssociationRelationship" id="id-29169cb459754670bc47f89faf44fd14" source="id-344840592f384fedad84340ec41a3b7c" target="id-05d89e6dba4649fab17bf40e4b27ab03"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-28056f73c27148769a150bfdfbf81e05" source="id-344840592f384fedad84340ec41a3b7c" target="id-a5fa82d3753d446bbb3f2e83fd348dc1"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-a3926e6c18974c8298bec74ab4e6c107" source="id-3e9506e200764d7fbf46875c0f6306cd" target="id-46af37689b32483a98c3fd5850a8dc78"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-b67e00a7fca44a678455918664ab7d25" source="id-783f700daa36488aa59a28b64e759002" target="id-de2064e55ca9422cbc9feb9ac4c07ec9"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-9125a25c06ef4f4cab5cceb7e006d0a3" source="id-06850dbcdf6d467a8717355344fa1cae" target="id-3e9506e200764d7fbf46875c0f6306cd"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-4550adbc6e0c47bf86c1e8c57bc5a952" source="id-489ead1f13ea4f42b07ddb2282eeaa57" target="id-d3fe88dac44747cc99478bb9834cc4e5"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-24ba622a94094599a5f9811445b01527" source="id-4dd2b4aefaaf44b9b1ac7ef98412a8fe" target="id-25931ba9299842979a17cb67961b433e"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-5a516bf01433454ebe4144366333e09d" source="id-4af7008e775549338e31dda6ce629908" target="id-9006fc4deb8c479ca7764fd5a10fdc18"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-aaa192b8d3d449ebb45280f01597c177" source="id-06850dbcdf6d467a8717355344fa1cae" target="id-2d3b02f729924d66a1e10a291fea2073"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-3ea5a5006d5f4082a014837f4ddeed76" source="id-06850dbcdf6d467a8717355344fa1cae" target="id-6171293f6c4d4fc1a344257840a477c5"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-302fdebae9c847f3aabc54fb33d672d0" source="id-0a929446cec2473dae6a274ef1be26b0" target="id-2f3f4b1dc9a2467daa2911352d1e2cb1"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-faa76cb19e0c442eafa51dfe01db0585" source="id-72aa432d4a424c9fbaeffe50e3905e41" target="id-344840592f384fedad84340ec41a3b7c"/>
   </folder>
   <folder name="Views" id="id-141fc3266709478282aa08d0d3cc5ee2" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Full Motivation and Capabilities View" id="id-7cd8ab3524564888a1b87d0a7e533dd8">
@@ -591,7 +608,7 @@ IT-отдел и команда разработчиков программно�
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Value Stream View" id="id-312ff680213a472d8ba586e639c1408e">
       <child xsi:type="archimate:DiagramObject" id="id-5eeb3e7fb2954c14af9cf0e114d797e6" targetConnections="id-6f7a7aba490744a888956b61f942193d" archimateElement="id-f2a85b72ca794e8b9885258623a6b1df" type="1">
-        <bounds x="468" y="156" width="1033" height="168"/>
+        <bounds x="468" y="156" width="1009" height="145"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-cc7eefa6b92d4f67a195e7ae685cf9f1" source="id-5eeb3e7fb2954c14af9cf0e114d797e6" target="id-1afae0ecf10d4de99c5c71bb9cabe88b" archimateRelationship="id-7a7b6bd17842414fa088bebd645928ef"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-83cb5ea21c2b4b28b259f2f890e19ca2" source="id-5eeb3e7fb2954c14af9cf0e114d797e6" target="id-3184933abc664d14b03bf98395651e1c" archimateRelationship="id-0590b2b067e048a681fc80bccc1dc6de"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-2f77399c48c14f6992905ac51a78dfed" source="id-5eeb3e7fb2954c14af9cf0e114d797e6" target="id-60caf065ef434baa82c306455e6cb82f" archimateRelationship="id-e9df2bdae954413cbab1372dccabfb61"/>
@@ -705,12 +722,12 @@ IT-отдел и команда разработчиков программно�
         <feature name="labelExpression" value="Чатбот &#xD;&#xA;(L1)"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-9b380c6270e44f6a8cf1bd4a3385fd0b" source="id-711f4ec6c1994c4091fdd2bd7f9f9724" target="id-b6fa187bf6944555881be779769c70de" archimateRelationship="id-7f901e3d40bf4aa5a3c14aecaa0f1f05"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-d5043f2883ff46138f796ac1cfe5c116" textPosition="1" archimateElement="id-d3fe88dac44747cc99478bb9834cc4e5">
+      <child xsi:type="archimate:DiagramObject" id="id-d5043f2883ff46138f796ac1cfe5c116" targetConnections="id-40a359e7b36349d792e8bab6e69cf5a9" textPosition="1" archimateElement="id-d3fe88dac44747cc99478bb9834cc4e5">
         <bounds x="490" y="600" width="156" height="68"/>
         <feature name="labelExpression" value="Продукт&#xD;&#xA;лояльньости&#xD;&#xA;(${type})"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-c53a1fa2ef8e4d288a06670a3ff50748" source="id-d5043f2883ff46138f796ac1cfe5c116" target="id-7fcf27afb50644d2b19a29c457e838d2" archimateRelationship="id-e64a941adfce412fa26b02c121a65bf6"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-5151ee7c558446cd929e1c1a1421dc1f" textPosition="1" archimateElement="id-25931ba9299842979a17cb67961b433e">
+      <child xsi:type="archimate:DiagramObject" id="id-5151ee7c558446cd929e1c1a1421dc1f" targetConnections="id-29d73eb040e844b6932b86a24e299a1d" textPosition="1" archimateElement="id-25931ba9299842979a17cb67961b433e">
         <bounds x="660" y="624" width="85" height="44"/>
         <feature name="labelExpression" value="Клиент"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-6f7a7aba490744a888956b61f942193d" source="id-5151ee7c558446cd929e1c1a1421dc1f" target="id-5eeb3e7fb2954c14af9cf0e114d797e6" archimateRelationship="id-7736551493f74736973cc55815855300"/>
@@ -722,43 +739,80 @@ IT-отдел и команда разработчиков программно�
         <sourceConnection xsi:type="archimate:Connection" id="id-97de56e585fb48f482af37e2644db4ce" source="id-426236651615420d9eee43776d6099ae" target="id-265570e9635a4d1b9ec8794b0e29c349" archimateRelationship="id-d0fe489c2dd3499a8c7e860c7c569b07"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-bab5e83f1f634f2e995eac789eb605b6" source="id-426236651615420d9eee43776d6099ae" target="id-28ff2f31bb5b4824a4509e6a064d480b" archimateRelationship="id-dc78fa221b39483191bba830b01a4e62"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-265570e9635a4d1b9ec8794b0e29c349" targetConnections="id-97de56e585fb48f482af37e2644db4ce" textPosition="1" archimateElement="id-9006fc4deb8c479ca7764fd5a10fdc18">
-        <bounds x="773" y="667" width="109" height="61"/>
+      <child xsi:type="archimate:DiagramObject" id="id-265570e9635a4d1b9ec8794b0e29c349" targetConnections="id-97de56e585fb48f482af37e2644db4ce id-a88db9ce4be24cdc8d027ecf98e0a9b9" textPosition="1" archimateElement="id-9006fc4deb8c479ca7764fd5a10fdc18">
+        <bounds x="797" y="693" width="109" height="61"/>
         <feature name="labelExpression" value="Сегмент &#xD;&#xA;клиентов"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-e9aa1f49a5fa4e0e83d7f48447db637d" textPosition="1" archimateElement="id-2f3f4b1dc9a2467daa2911352d1e2cb1">
+      <child xsi:type="archimate:DiagramObject" id="id-e9aa1f49a5fa4e0e83d7f48447db637d" targetConnections="id-f5774e69d4334f0a9c9cd48cfdedfc47" textPosition="1" archimateElement="id-2f3f4b1dc9a2467daa2911352d1e2cb1">
         <bounds x="933" y="624" width="104" height="44"/>
         <feature name="labelExpression" value="Кешбэк"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-2a66d251ec9743149128142591dcc29f" source="id-e9aa1f49a5fa4e0e83d7f48447db637d" target="id-28ff2f31bb5b4824a4509e6a064d480b" archimateRelationship="id-b38a76db413a469290fd4b87ae0d89dc"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-f6db3acb1bab4f879c2dc2a3a350aacb" source="id-e9aa1f49a5fa4e0e83d7f48447db637d" target="id-5103c01528354ffd8f81738ca1981001" archimateRelationship="id-52eb280db591411a991d954915213a61"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-677e161ecb5749deb075189125640381" textPosition="1" archimateElement="id-2d3b02f729924d66a1e10a291fea2073">
+      <child xsi:type="archimate:DiagramObject" id="id-677e161ecb5749deb075189125640381" targetConnections="id-ab6d29b13a8b4074a027ed5c6a5c428a" textPosition="1" archimateElement="id-2d3b02f729924d66a1e10a291fea2073">
         <bounds x="1068" y="624" width="104" height="44"/>
         <feature name="labelExpression" value="Акции"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-1254abd9616446d4a8bfcf28ba724e09" source="id-677e161ecb5749deb075189125640381" target="id-7a87f79fcc9a4c4a9f6203b8d186c919" archimateRelationship="id-7b561a9d81cd4fddb2c202d7d5fe5e1c"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-9d495be87e1e41c382a15d2e1780d397" source="id-677e161ecb5749deb075189125640381" target="id-5103c01528354ffd8f81738ca1981001" archimateRelationship="id-9e7fd12990bc4cb685ff3d1084ec7a18"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-b774b585add44aecbb95bfc840bb9c2b" textPosition="1" archimateElement="id-6171293f6c4d4fc1a344257840a477c5">
+      <child xsi:type="archimate:DiagramObject" id="id-b774b585add44aecbb95bfc840bb9c2b" targetConnections="id-6cf8c085f4f54cf4a095cdbbe8e21e29" textPosition="1" archimateElement="id-6171293f6c4d4fc1a344257840a477c5">
         <bounds x="1212" y="624" width="104" height="44"/>
         <feature name="labelExpression" value="Бонусы, &#xD;&#xA;скидки"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-182e029f2f1a4bba98adbf63ad139fb0" source="id-b774b585add44aecbb95bfc840bb9c2b" target="id-5103c01528354ffd8f81738ca1981001" archimateRelationship="id-6ba1fe120ee040d3b4dfac67c840511b"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-040dc2488a984bd79a167f7cb8087424" source="id-b774b585add44aecbb95bfc840bb9c2b" target="id-7a87f79fcc9a4c4a9f6203b8d186c919" archimateRelationship="id-01446445477f4bb7972d8039891c7cb1"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-45c91bc2b1b54c558d624ad689d9b700" textPosition="1" archimateElement="id-de2064e55ca9422cbc9feb9ac4c07ec9">
+      <child xsi:type="archimate:DiagramObject" id="id-45c91bc2b1b54c558d624ad689d9b700" targetConnections="id-e97a2046c82447a2afa5ad800771908b" textPosition="1" archimateElement="id-de2064e55ca9422cbc9feb9ac4c07ec9">
         <bounds x="1342" y="576" width="104" height="44"/>
         <feature name="labelExpression" value="Платеж"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-2713b6e528e1429781d97d98c9cf163e" source="id-45c91bc2b1b54c558d624ad689d9b700" target="id-728ad0d5afd643848a9fe8baab5e7971" archimateRelationship="id-9226dd6c6c2741888e44fc73fe1ad47a"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-5a2698eeee2d48ecad9b692f3ac7795a" textPosition="1" archimateElement="id-344840592f384fedad84340ec41a3b7c">
+      <child xsi:type="archimate:DiagramObject" id="id-5a2698eeee2d48ecad9b692f3ac7795a" targetConnections="id-d7132caa6b4241eaba9e9844e80c3c57" textPosition="1" archimateElement="id-344840592f384fedad84340ec41a3b7c">
         <bounds x="1416" y="489" width="104" height="44"/>
         <feature name="labelExpression" value="Запросы &#xD;&#xA;клиента"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-04b90cb07e2342968320e433d1a50f64" source="id-5a2698eeee2d48ecad9b692f3ac7795a" target="id-711f4ec6c1994c4091fdd2bd7f9f9724" archimateRelationship="id-29169cb459754670bc47f89faf44fd14"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-d292bdb4d94946eaa816ae6a28e19f0c" source="id-5a2698eeee2d48ecad9b692f3ac7795a" target="id-f51c043e1d5241cba2e304c53173136c" archimateRelationship="id-28056f73c27148769a150bfdfbf81e05"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-047761168c7c4fb198c3244e0bece5bc" textPosition="1" archimateElement="id-3e9506e200764d7fbf46875c0f6306cd">
+      <child xsi:type="archimate:DiagramObject" id="id-047761168c7c4fb198c3244e0bece5bc" targetConnections="id-b3c7f3450efe4de3bc4bd9d18e2db80e" textPosition="1" archimateElement="id-3e9506e200764d7fbf46875c0f6306cd">
         <bounds x="933" y="390" width="104" height="44"/>
         <feature name="labelExpression" value="Партнеры"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-7a41f5bda539489c8c5379c44ee4656f" source="id-047761168c7c4fb198c3244e0bece5bc" target="id-a0c279d39f3c48479d3e7db2398bdc2a" archimateRelationship="id-a3926e6c18974c8298bec74ab4e6c107"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-91e607542a39484a935dabc3e28bdd06" archimateElement="id-489ead1f13ea4f42b07ddb2282eeaa57">
+        <bounds x="508" y="708" width="120" height="55"/>
+        <feature name="labelExpression" value="Мобильное &#xD;&#xA;приложение&#xD;&#xA;(${type})"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-40a359e7b36349d792e8bab6e69cf5a9" source="id-91e607542a39484a935dabc3e28bdd06" target="id-d5043f2883ff46138f796ac1cfe5c116" archimateRelationship="id-4550adbc6e0c47bf86c1e8c57bc5a952"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-59a3dce630194498a0a9210ba873daa0" archimateElement="id-06850dbcdf6d467a8717355344fa1cae">
+        <bounds x="1081" y="738" width="120" height="55"/>
+        <feature name="labelExpression" value="CRM&#xD;&#xA;(${type})"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-b3c7f3450efe4de3bc4bd9d18e2db80e" source="id-59a3dce630194498a0a9210ba873daa0" target="id-047761168c7c4fb198c3244e0bece5bc" archimateRelationship="id-9125a25c06ef4f4cab5cceb7e006d0a3"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-ab6d29b13a8b4074a027ed5c6a5c428a" source="id-59a3dce630194498a0a9210ba873daa0" target="id-677e161ecb5749deb075189125640381" archimateRelationship="id-aaa192b8d3d449ebb45280f01597c177"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-6cf8c085f4f54cf4a095cdbbe8e21e29" source="id-59a3dce630194498a0a9210ba873daa0" target="id-b774b585add44aecbb95bfc840bb9c2b" archimateRelationship="id-3ea5a5006d5f4082a014837f4ddeed76"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-ac809415bf754743a35f79f2eb100c99" archimateElement="id-783f700daa36488aa59a28b64e759002">
+        <bounds x="1342" y="670" width="120" height="55"/>
+        <feature name="labelExpression" value="Процессинг&#xD;&#xA;(${type})"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-e97a2046c82447a2afa5ad800771908b" source="id-ac809415bf754743a35f79f2eb100c99" target="id-45c91bc2b1b54c558d624ad689d9b700" archimateRelationship="id-b67e00a7fca44a678455918664ab7d25"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-0a8949ce79244010a0ea253f4fcfe70c" archimateElement="id-4dd2b4aefaaf44b9b1ac7ef98412a8fe">
+        <bounds x="660" y="720" width="120" height="55"/>
+        <feature name="labelExpression" value="Профили&#xD;&#xA;клиентов&#xD;&#xA;(${type})"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-29d73eb040e844b6932b86a24e299a1d" source="id-0a8949ce79244010a0ea253f4fcfe70c" target="id-5151ee7c558446cd929e1c1a1421dc1f" archimateRelationship="id-24ba622a94094599a5f9811445b01527"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-c4309da6951a40d3b66830dea07e4900" archimateElement="id-4af7008e775549338e31dda6ce629908">
+        <bounds x="797" y="792" width="120" height="55"/>
+        <feature name="labelExpression" value="Модель &#xD;&#xA;сегментов&#xD;&#xA;(${type})"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-a88db9ce4be24cdc8d027ecf98e0a9b9" source="id-c4309da6951a40d3b66830dea07e4900" target="id-265570e9635a4d1b9ec8794b0e29c349" archimateRelationship="id-5a516bf01433454ebe4144366333e09d"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-8d4ad85c5e534f44aeb3796285e5b573" archimateElement="id-0a929446cec2473dae6a274ef1be26b0">
+        <bounds x="925" y="753" width="120" height="55"/>
+        <feature name="labelExpression" value="Конвертации&#xD;&#xA;(${type})"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-f5774e69d4334f0a9c9cd48cfdedfc47" source="id-8d4ad85c5e534f44aeb3796285e5b573" target="id-e9aa1f49a5fa4e0e83d7f48447db637d" archimateRelationship="id-302fdebae9c847f3aabc54fb33d672d0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-810b916cc5fe4ef09ae922539720bc87" archimateElement="id-72aa432d4a424c9fbaeffe50e3905e41">
+        <bounds x="1476" y="606" width="120" height="55"/>
+        <feature name="labelExpression" value="КЦ&#xD;&#xA;(${type})"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-d7132caa6b4241eaba9e9844e80c3c57" source="id-810b916cc5fe4ef09ae922539720bc87" target="id-5a2698eeee2d48ecad9b692f3ac7795a" archimateRelationship="id-faa76cb19e0c442eafa51dfe01db0585"/>
       </child>
     </element>
   </folder>
